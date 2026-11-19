@@ -1,2 +1,15 @@
 # python
-.venv
+.venv/
+__pycache__/
+*.cache
+
+# ai
+/yolo11n.pt
+
+# dataset & ultralytics outputs (too large to commit)
+data/
+runs/
+
+# raw videos (too large for GitHub)
+demo/raw/
+
